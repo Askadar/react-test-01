@@ -1,0 +1,84 @@
+.row {
+	display: flex;
+	/* max-width: 600px; */
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.currecny-button {
+	display: inline-block;
+	width: 200px;
+	height: 4em;
+	flex-basis: 200px;
+	/* background: hsla(70, 100%, 40%, 1); */
+	/* border: 1px solid hsla(73, 80%, 35%, 1); */
+	box-sizing: border-box;
+	padding: 4px 8px;
+	position: relative;
+}
+.currecny-button button {
+	display: block;
+	/* background: hsl(205, 100%, 50%); */
+	background: none;
+	/* border: 1px solid hsl(205, 80%, 45%); */
+	padding: 4px;
+	position: absolute;
+	margin: auto;
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+.currecny-button button {
+	transition: all 1s;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.currecny-button:hover button {
+	border: 1px solid hsl(205, 80%, 45%);
+}
+/* .currecny-button:hover button {
+	position: relative;
+	width: 50%;
+} */
+
+.trades {
+	width: 100%;
+}
+
+.trade-item {
+	padding: 2px 0;
+	text-align: left;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
